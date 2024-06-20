@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body, h1, h2, h3, h4, h5, h6, p, ul, li, a, footer, nav ul li a {
+    color: #d3d3d3; /* Set all text to light gray */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0 20px; /* Add padding to the body */
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #ecf0f1;
+    margin: 10px 0; /* Adjust margin for better spacing */
+    padding: 15px; /* Increase padding for better look */
+    border: 1px solid #bdc3c7;
+    color: #000000; /* Set text to black for better contrast on bright background */
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin: 20px 0; /* Adjust margin for better spacing */
+    text-decoration: none;
+}
+
+a i {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+footer {
+    padding: 20px 0; /* Add padding to footer */
+}
+
+.herb img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.herb {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000; /* Set menu items to black for better contrast */
+}
+
+nav ul li a:hover {
+    color: #000000; /* Set menu items to black for better contrast */
+}
+
+p a {
+    display: inline;
+}
